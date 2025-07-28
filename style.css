@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #87ceeb;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#joystick {
+  position: fixed;
+  bottom: 10vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 10;
+}
+
+#joystick button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 50%;
+  border: none;
+  background: #fff4;
+  color: #000;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #ffffff88;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
